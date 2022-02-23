@@ -8,6 +8,10 @@ body {
   color: #757575;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Logo */
 
 .nav-link {
@@ -15,7 +19,8 @@ body {
   font-size: 26px;
   font-weight: bold;
   line-height: 1.19;
-  font-family: relaway;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
 }
 
 .first-part-logo {
