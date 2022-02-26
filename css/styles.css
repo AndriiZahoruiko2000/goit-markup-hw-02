@@ -36,11 +36,40 @@ a {
 }
 
 /* Navigation */
+
 .link {
   color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
+}
+
+.link-studio {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.link-studio:hover,
+.link-studio:focus,
+.link-studio:active,
+.link-studio:visited {
+  color: var(--focus-text-color);
+}
+
+.link-portfolio {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.link-portfolio:hover,
+.link-portfolio-focus,
+.link-portfolio:active,
+.link-portfolio:visited {
+  color: var(--focus-text-color);
 }
 
 .link-contacts {
